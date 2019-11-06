@@ -21,6 +21,6 @@ function currentLine(lineArr) {
     for (var i = 0; i < lineArr.length; i++) {
       line = line + i + ". " + lineArr[i]
     }
-    return "The line is currently: "
+    return "The line is currently: " + line
   }
 }
