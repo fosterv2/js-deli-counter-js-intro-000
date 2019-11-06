@@ -19,7 +19,7 @@ function currentLine(lineArr) {
   } else {
     var line = ""
     for (var i = 0; i < lineArr.length; i++) {
-      line = line + (i + 1) + ". " + lineArr[i] + " "
+      line = line + (i + 1) + ". " + lineArr[i] + ", "
     }
     return "The line is currently: " + line
   }
